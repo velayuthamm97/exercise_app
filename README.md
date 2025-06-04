@@ -26,7 +26,7 @@ lib/
 
 ## **🚀 How to Run the App**
 
-1. Unzip the project
+1. Clone the project
    cd exercise_app
 2. Install dependencies
    flutter pub get
