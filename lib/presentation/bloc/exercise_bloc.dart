@@ -24,7 +24,7 @@ class ExerciseBloc extends Bloc<ExerciseBlocEvent, ExerciseBlocState> {
           final exercises = await getExercises();
           emit(ExerciseBlocExerciseListSuccess(exercises));
         } catch (e) {
-          emit(ExerciseBlocExerciseListFailure('Failed to load'));
+          emit(ExerciseBlocExerciseListFailure(e.toString()));
         }
       }
 
